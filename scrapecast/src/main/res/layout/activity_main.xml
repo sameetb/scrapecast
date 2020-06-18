@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="org.sb.scrapecast.MainActivity">
+
+    <fragment
+        android:id="@+id/browse"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/castMiniController"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        class="org.sb.scrapecast.scraper.AudioBrowserFragment" />
+
+    <android.support.v7.app.MediaRouteButton
+        android:id="@+id/media_route_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:mediaRouteTypes="user"
+        android:visibility="gone" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAddRootDir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_alignTop="@+id/browse"
+        android:layout_alignParentEnd="true" />
+
+    <fragment
+        android:id="@+id/castMiniController"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        class="com.google.android.gms.cast.framework.media.widget.MiniControllerFragment" />
+
+
+</RelativeLayout>

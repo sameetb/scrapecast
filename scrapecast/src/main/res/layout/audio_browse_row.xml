@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:foreground="?selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false">
+
+        <LinearLayout
+                android:id="@+id/text_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:clickable="false"
+                android:focusable="false">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Track name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:fontFamily="sans-serif"
+                android:longClickable="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/controls_play"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:clickable="false">
+
+            <ImageButton
+                android:id="@+id/btn_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_media_play"
+                android:background="?attr/selectableItemBackground"/>
+
+            <ImageButton
+                android:id="@+id/btn_queue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_input_add"
+                android:background="?attr/selectableItemBackground"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/vertical_divider" />
+
+</FrameLayout>

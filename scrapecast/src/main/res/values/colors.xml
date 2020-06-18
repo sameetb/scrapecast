@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_swipe_item_neutral">#ffffffff</color>
+    <color name="bg_swipe_item_left">#fff9930d</color>
+    <color name="bg_swipe_item_right">#ffdb4437</color>
+    <color name="bg_swipe_group_item_left">#fff45f30</color>
+    <color name="bg_swipe_group_item_right">#ff295db3</color>
+	
+    <!-- Queue -->
+    <color name="bg_item_normal_state">#fff0f0f0</color>
+    <color name="bg_item_upcoming_state">@color/colorPrimary</color>
+    <color name="bg_item_normal_pressed_state">#ffe0e0e0</color>
+    <color name="bg_item_playing_state">#ffaaaaaa</color>
+    <color name="bg_item_dragging_state">@color/bg_item_normal_state</color>
+    <color name="bg_item_dragging_active_state">#ffe0e0e0</color>
+    <color name="bg_item_swiping_state">@color/bg_item_normal_state</color>
+    <color name="bg_item_swiping_active_state">@color/bg_item_normal_state</color>	
+	
+</resources>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="version">Scrapecast: %1$s</string>
+    <string name="ok">OK</string>
+    <string name="no_device">(No Device Selected)</string>
+    <string name="error">Error</string>
+    <string name="oops">Oops</string>
+
+    <string name="app_name">ScrapeCast</string>
+    <string name="about_app">About ScrapeCast</string>
+    <string name="action_settings">Settings</string>
+    <string name="media_route_menu_title">Cast</string>
+    <string name="introducing_cast">Introducing ScrapeCast</string>
+    <string name="no_media_found">empty</string>
+
+    <string name="error_media_load_timeout">Media loading timed out</string>
+    <string name="error_server_inaccessible">Media server was not reachable</string>
+    <string name="unknown_error">Failed to load media</string>
+    <string name="error_failed_to_connect">Failed to connect to cast device</string>
+
+    <!-- Preferences -->
+    <string name="prefs_header_application">Application Behavior</string>
+    <string name="prefs_header_application_summary">Control how the application behaves on the TV
+    </string>
+    <string name="prefs_termination_policy_default">0</string>
+    <string name="prefs_termination_policy_dialog_title">When Disconnecting</string>
+    <string name="prefs_volume_title">Volume Assignment</string>
+    <string name="prefs_volume_title_summary">Controls %1$s</string>
+    <string name="prefs_volume_dialog_title">Volume Assignment</string>
+    <string name="prefs_volume_default">device</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- Queue -->
+    <string name="show_queue">Show Queue</string>
+    <string name="queue_list">Queue</string>
+    <string name="transition_image">transition-image</string>
+    <string name="queue_empty">Queue is empty!</string>
+    <string name="queue_tag_item">queue-tag-item</string>
+    <string name="play_now">Play Now</string>
+    <string name="play_next">Play Next</string>
+    <string name="add_to_queue">Queue</string>
+    <string name="add_all_to_queue">Queue All</string>
+    <string name="action_clear_queue">Clear Queue</string>
+    <string name="queue_item_added_to_play_next">\"%1$s\" was added to play next</string>
+    <string name="queue_item_added_to_queue">\"%1$s\" was added to the queue</string>
+    <string name="action_home">Home</string>
+    <string name="action_exit">Exit</string>
+    <string name="add_root_folder">Add Folder</string>
+    <string name="add_streaming_url">Add Stream</string>
+    <string name="action_save_queue">Save</string>
+    <string name="action_load_queue">Load</string>
+    <string name="action_shuffle_queue">Shuffle</string>
+</resources>
